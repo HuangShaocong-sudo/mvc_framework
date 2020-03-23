@@ -15,6 +15,6 @@
 
 主要功能展示
 
-![](.\mvc_framework_app.gif)
+![image](https://github.com/HuangShaocong-sudo/mvc_framework/blob/master/mvc_framework_app.gif)
 
-![](.\framework_log.gif)
+![image](https://github.com/HuangShaocong-sudo/mvc_framework/blob/master/framework_log.gif)
