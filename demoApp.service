@@ -1,0 +1,12 @@
+[Unit]
+Description=demo app
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/var/www/mvc_framework
+ExecStart=/usr/local/bin/gunicorn app_for_gunicorn:app --bind 127.0.0.1:3000
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
